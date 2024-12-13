@@ -1,0 +1,36 @@
+Comprehensive Data Cleaning Report
+===================================
+
+MOVIES DATASET
+--------------------
+Initial Rows: 86537
+Duplicates Removed: 0
+Nan Counts: {'movieId': 0, 'title': 0, 'genres': 0}
+
+RATINGS DATASET
+--------------------
+Initial Rows: 33832162
+Duplicates Removed: 0
+Invalid Ratings Removed: 0
+Nan Counts: {'userId': 0, 'movieId': 0, 'rating': 0, 'timestamp': 0}
+
+LINKS DATASET
+--------------------
+Initial Rows: 86537
+Duplicates Removed: 0
+Invalid Links Removed: 126
+Nan Counts: {'movieId': 0, 'imdbId': 0, 'tmdbId': 0}
+
+TAGS DATASET
+--------------------
+Initial Rows: 2328315
+Duplicates Removed: 0
+Empty Tags Removed: 259
+Nan Counts: {'userId': 0, 'movieId': 0, 'tag': 0, 'timestamp': 0}
+
+CROSS_DATASET DATASET
+--------------------
+Invalid Ratings Removed: 0
+Invalid Tags Removed: 0
+Invalid Links Removed: 0
+
